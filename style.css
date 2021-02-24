@@ -1,0 +1,74 @@
+body {
+margin: 0px;
+padding-top: 100px;
+text-align: center;
+}
+.profile {
+margin-top: 100px;    
+margin-bottom: 50px;
+width: 175px;
+border-radius: 50%;
+}
+#welcome{
+background: linear-gradient(#eb8f34 0%, #dfeb34 100%);
+right: 0px;    
+left: 0px;
+bottom: 0px;
+top: 0px;
+color: #FFFFFF;
+position: absolute;
+    
+opacity: 1;
+height: 800px;
+width: 100%;
+z-index: 9;
+    
+
+}
+#Bio{
+padding: 50px;
+margin-top: 700px;
+font-family: 'Oswald', sans-serif;
+}
+
+.menu{
+z-index: 15;
+position: fixed; 
+top: 0px;
+list-style: none;
+cursor: pointer;
+background-color: aliceblue;
+width: 100%;
+}
+
+.links{
+float: left;
+padding-top: 5px;
+padding-bottom: 0px;
+padding-right: 20px;
+padding-left: 0px;
+font-family: cursive;
+font-size: 20px;
+}
+
+.line{
+background-color: #000;
+height: 6px;
+margin: 8px auto;
+width: 150px;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+a {
+text-decoration: none;
+}
+
+.zoom{
+background-color: red;
+height: 100px;
+width: 100px;
+transform:scale=0.75;
+}
